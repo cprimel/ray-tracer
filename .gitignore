@@ -1,0 +1,5 @@
+# IDE settings, environment variables, etc.
+/.idea
+
+# Build files, binaries, etc.
+/build/
