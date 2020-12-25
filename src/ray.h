@@ -19,7 +19,7 @@ public:
 
 public:
     point3 orig;
-    vec dir;
+    vec3 dir;
 };
 
 
