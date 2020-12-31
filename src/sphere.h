@@ -13,6 +13,7 @@ public:
 
     sphere(point3 const &cen, double const r) : center(cen), radius(r) {};
 
+    bool hit(const ray &r, double t_min, double t_max, hit_record &rec) const override;
 };
 
 bool sphere::hit(const ray &r, double t_min, double t_max, hit_record &rec) const {
